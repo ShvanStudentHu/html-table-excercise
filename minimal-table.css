@@ -33,3 +33,7 @@ html {
   caption {
     padding: 10px;
   }
+
+  colgroup {
+    border:  2px solid black;
+  }

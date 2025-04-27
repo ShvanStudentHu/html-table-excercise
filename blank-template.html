@@ -8,26 +8,29 @@
 </head>
 <body>
   <table>
+    <caption id="planet">Planets</caption>
+    <colgroup>
+    </colgroup>
     <thead>
-    <caption>Planets</caption>
+    <tr class="row-one">
+      <th colspan="5"></th>
+      <th scope="col">Name</th>
+      <th scope="col">Mass (10<sup>24</sup>kg)</th>
+      <th scope="col">Diameter (km)</th>
+      <th scope="col">Density (kg/m<sup>3</sup>)</th>
+      <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+      <th scope="col">Length of day (hours)</th>
+      <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+      <th scope="col">Mean temperature (°C)</th>
+      <th scope="col">Number of moons</th>
+      <th scope="col">Notes</th>
     </thead>
+
     <tbody>
-      <tr class="row-one">
-        <th colspan="5"></th>
-        <th>Name</th>
-        <th>Mass (10<sup>24</sup>kg)</th>
-        <th>Diameter (km)</th>
-        <th>Density (kg/m<sup>3</sup>)</th>
-        <th>Gravity (m/s<sup>2</sup>)</th>
-        <th>Length of day (hours)</th>
-        <th>Distance from Sun (10<sup>6</sup>km)</th>
-        <th>Mean temperature (°C)</th>
-        <th>Number of moons</th>
-        <th>Notes</th>
       </tr>
       <tr class="row-two">
-        <th rowspan="4" colspan="5">Terrestrial Planets</th>
-       <th>Mercury</th>
+        <th rowspan="4" colspan="5" scope="rowgroup">Terrestrial Planets</th>
+       <th scope="row">Mercury</th>
        <td></td>
        <td></td>
        <td></td>
@@ -38,8 +41,8 @@
        <td></td>
        <td></td>
       </tr>
-      <tr>
-      <th class=" row-three">Venus</th>
+      <tr class="row-three" scope="rowgroup">
+      <th scope="row">Venus</th>
       <td></td>
       <td></td>
       <td></td>
@@ -51,7 +54,7 @@
       <td></td>
       </tr>
       <tr class="row-four">
-        <th>Earth</th>
+        <th scope="row">Earth</th>
         <td></td>
         <td></td>
         <td></td>
@@ -63,7 +66,7 @@
         <td></td>
       </tr>
       <tr class="row-five">
-        <th>Mars</th>
+        <th scope="row">Mars</th>
         <td></td>
         <td></td>
         <td></td>
@@ -75,9 +78,9 @@
         <td></td>
       </tr>
       <tr class="row-six">
-        <th rowspan="4" colspawn="2">Jovian planets</th>
-        <th rowspan="2" colspan="4">Gas Giants</th>
-        <th>Jupiter</th>
+        <th rowspan="4" colspawn="2" scope="rowgroup">Jovian planets</th>
+        <th rowspan="2" colspan="4" scope="rowgroup">Gas Giants</th>
+        <th scope="row">Jupiter</th>
         <td></td>
         <td></td>
         <td></td>
@@ -89,7 +92,7 @@
         <td></td>
       </tr>
       <tr class="row-seven">
-        <th>Saturn</th>
+        <th scope="row">Saturn</th>
         <td></td>
         <td></td>
         <td></td>
@@ -101,8 +104,8 @@
         <td></td>
       </tr>
       <tr class="row-eight">
-        <th rowspan="2" colspan="4">ice Giants</th>
-        <th>Uranus</th>
+        <th rowspan="2" colspan="4" scope="rowgroup">ice Giants</th>
+        <th scope="rowg">Uranus</th>
         <td></td>
         <td></td>
         <td></td>
@@ -114,7 +117,7 @@
         <td></td>
       </tr>
       <tr class="row-nine">
-        <th>Neptune</th>
+        <th scope="row">Neptune</th>
         <td></td>
         <td></td>
         <td></td>
@@ -126,8 +129,8 @@
         <td></td>
       </tr>
       <tr class="row-ten">
-        <th rowspan="2" colspan="5">Dwarf planets</th>
-        <th rowspan="2">Pluto</th>
+        <th rowspan="2" colspan="5" scope="rowgroup">Dwarf planets</th>
+        <th rowspan="2" scope="row">Pluto</th>
         <td></td>
         <td></td>
         <td></td>
@@ -142,53 +145,3 @@
   </table>
 </body>
 </html>
-<!-- <table>
-  <caption>planets</caption>
-  <thead>
-    <tr>
-      <th colspan="6"></th>
-      <th scope="colgroup">Name</th>
-      <th>Mass (10^24kg)</th>
-      <th>Diameter (km)</th>
-      <th>Density(kg/m^3)</th>
-      <th>Gravity (m/s^2)</th>
-      <th>Length of day (hours)</th>
-      <th>distance from sun(10^6km)</th> 
-      <th>mean temperature (C)</th>
-      <th>number of moons</th>
-      <th>notes</th> 
-    </tr>
-    </thead>
-  <tbody>
-    <tr>
-      <th colspan="6" rowspan="5">terrestrial Planets</th>
-    </tr>
-    <tr>
-      <th scope="rowgroup">mercury</th>
-      <td>0.330</td>
-      <td>4,79</td>
-      <td>5427</td>
-      <td>3.7</td>
-      <td>4222,6</td>
-      <td>57.9</td>
-      <td>167</td>
-      <td>0</td>
-      <td>Closest to the sun</td>
-    </tr>
-    <tr>
-      <th>Venus</th>
-    </tr>
-    <tr>
-      <th>Earth</th>
-    </tr>
-    <tr>
-      <th>Mars</th>
-    </tr>
-    <tr>
-      <th rowspan="4" colspan="6">Jovian Planets</th>
-    </tr>
-    <tr>
-      <th rowspan="2" colspan="2">Gas Giants</th>
-    </tr>
-  </tbody>
-</table> -->
